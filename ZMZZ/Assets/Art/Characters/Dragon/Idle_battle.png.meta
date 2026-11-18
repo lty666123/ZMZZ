@@ -1,0 +1,3220 @@
+fileFormatVersion: 2
+guid: 9dbfab88260d1924db0192f1f6a580ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d236dc2bdb29b43a393132c3e941ec
+      internalID: -625269641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd694c6dc528524f82478e1c8394420
+      internalID: -1953813740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc28362b0709d044afe316eacc50f02
+      internalID: -1258665536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd4ff3566d480544b989a4ec6dfce91
+      internalID: 1228680523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344593980d5cf1e4a88fc3998e2ececd
+      internalID: 476594341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a818133494cc8489b35f063e0ffa51
+      internalID: -254264196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_6
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6343706b551dd409b1249c08189732
+      internalID: 1330180991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_7
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943e30d90f1d9674a99df2adaa28e83f
+      internalID: -376553867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_8
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d488bfffde80a174097d041c6b148369
+      internalID: -255830430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_9
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d73432eb5e7d147aa4e2c3f26b6748
+      internalID: -1637202563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_10
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 2664
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5edb526e120dc409df601349702328
+      internalID: -752002925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ecc89f466431949a83a653d35e032f
+      internalID: 1937873157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_12
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17366357c25f1542b44756a66f51a24
+      internalID: -1884728415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_13
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a022af0567bea3a48a842abf2a5c57e9
+      internalID: -906736130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_14
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b1af02e74eb2c44a39887263bc5092
+      internalID: 1696182468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_15
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e7ef2273a4aed429cef777e176bac7
+      internalID: 944769271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_16
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a72fff0ca7ce04fbd1d93a0988d6aa
+      internalID: 987415147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_17
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8534b033a48d38c428926b52a01c86dd
+      internalID: 727894114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_18
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef377e2be4d43d245a5a319886a0d04e
+      internalID: 504629153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_19
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a4c9366749a05409c326552eb4f4fd
+      internalID: 1950775056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_20
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d1e178b50a1654990f9769fd0ad27d
+      internalID: 903961285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_21
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 2442
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba88d3b52c369854e9a2254645c5f7f7
+      internalID: -1633048833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3bdb25b90ce7047bf76eaa92e43ba7
+      internalID: -994199356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88b6ba8c59e8ae47941b59a10e73622
+      internalID: -450843030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_24
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faddff45c0eeb394ebf456605c1bd70b
+      internalID: 817493436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_25
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c07aaff8781f945a0ae4b279b408fd
+      internalID: -1235197197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_26
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7dce0917864d3488da43c463f71c84
+      internalID: -1778237576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_27
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbac10bb3ea46b44cada59c67bd43b76
+      internalID: -677401157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_28
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573f9bdff2507914abd0bac282f7668f
+      internalID: -950488988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_29
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45baa20714de684c84b2b3106d7a518
+      internalID: -758418168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_30
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5122e1f957698814f96c2593479fc76d
+      internalID: 1530964347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_31
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f9262633c078d48a932c6fd3ea7b28
+      internalID: 1183883553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_32
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 2220
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97d173979b119a4a85bb5080bfd6611
+      internalID: 1288919103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddd98e0032294448af0b6f0d001ba30
+      internalID: -1489868807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6170f3e35901e4e94524b27e2b3baf
+      internalID: 947128521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_35
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947ba730c339e6c48a8b308170bb03a8
+      internalID: 1422000958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_36
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aca6c1b55a1d6444b7f8faf3abde2e4
+      internalID: -903660436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_37
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ace61b09fa23954eb1f8feb62622059
+      internalID: -1760366188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_38
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afe22f3218c588499a7501e9a0ec2af
+      internalID: 450850803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_39
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deacba94d1cbe8642ab54c6cfa122a40
+      internalID: -878040511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_40
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b3044ead4a4e14b87fce084ff40f1a
+      internalID: 1131433621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_41
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66941590de0f3894e8d5a367675d502c
+      internalID: 106210339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_42
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cba8f912ac6544f80ffd6f7d421eba
+      internalID: 442284552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_43
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1998
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f973ad8b6af57e4490348dc3bcd1e6f
+      internalID: -541853623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f356771b54d7a548b657bca03c09b52
+      internalID: -1217616266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_45
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212cc85ddb17e3d41a4a2f38e5925410
+      internalID: -2044767844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_46
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daef227e95d998428cdca307a083014
+      internalID: -1250234384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_47
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3fcefdcfc5b8141bf3287ffe8c5bbf
+      internalID: -1746252013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_48
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea345c660f7a99438d8af721d362ee4
+      internalID: -1859821011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_49
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74e6ec70fde42f46baff8d94bbae0eb
+      internalID: 126659272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_50
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b40c59b79bbca849aba92abf1e50cf6
+      internalID: -270226166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_51
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404c98265e5fe7d44a6db8a3c8b561cd
+      internalID: 71164009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_52
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4e9042d1f4bf74fb9cc20afee4d9af
+      internalID: 1579847532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_53
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b04a214d9f76545a1143aaf5057965
+      internalID: -1415595254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_54
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1776
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5494ce2848155f4bb42714587a7de31
+      internalID: 751147419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03c7a609cce016429084f3ae2a2c7e6
+      internalID: -1322758505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bf291ccce50af4ab02a8b2384fc765
+      internalID: -1957228146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_57
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aa24d0aa25d264289056b6d7df27f6
+      internalID: 83072790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_58
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9e97ac51ba0bd44bb334d5675d47f8
+      internalID: -1125784862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_59
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50854e3081fe9b4594f98d687df55aa
+      internalID: 740102253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_60
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a2e8dfc6890254984b6add3d26009e
+      internalID: 1170901539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_61
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb9aa4a836eb074db95b4a06a29c85a
+      internalID: -882212176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_62
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c07b9e3b0de44d4d810dede29cd17b5
+      internalID: -1711881278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_63
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5c55010def0bc49bfcaca3565141dc
+      internalID: -1788680199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_64
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270f85c1546359f4ba5d201f91a846b9
+      internalID: -672744111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_65
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1554
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1727c9650be29b34491771d729649d1f
+      internalID: -785726453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be5a8eb94d46894a8fed80069adf2e3
+      internalID: 351230248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_67
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7005d1c70a812dc43867d61daf128a28
+      internalID: -575859978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_68
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a75c946a95dd14cb40d3c1b10bbb47
+      internalID: -1716032108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_69
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8cf959898f42f42b838efc1933003b
+      internalID: 596516502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_70
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6f8c1a92e01ad4d99c87c4d74120f5
+      internalID: -1494574900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_71
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b908e673593d4f42b6dffc65cfd977d
+      internalID: -1830052644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_72
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baddfa3774ef8974ab8c7935623198c8
+      internalID: 429329260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_73
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b371cb41338b4eb2b9e7460315d89
+      internalID: 2088983496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_74
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdeb73cdb0dfd074f894d7863bfa8c43
+      internalID: -1493938473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_75
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d21de67739eea947a31893289f6e699
+      internalID: 1150791988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_76
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1332
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4ab4380a7497d4bab021e2e3a78c80
+      internalID: -1954880346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b2c5038ce26ab45ab8e32319c9cddf
+      internalID: -1698694933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_78
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53514d579d742a04b9df36fa4a6fd13c
+      internalID: -912328685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_79
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7711545472393ba4a904c2d45e049afb
+      internalID: 2019013131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_80
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4d7bed4ea2c324c860a48f5c6c649c
+      internalID: -1563797490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_81
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7352f0f5b2e304297c4e44dd59dfaa
+      internalID: 1958424548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_82
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318a453854702464f88697e2467e1b27
+      internalID: -1290318427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_83
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ca21155e036944fa14d73cb9709b1c
+      internalID: 36973756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_84
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e1512a9f8e3604385f4f1ed28046a1
+      internalID: 1629031597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_85
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd2da7d5fcb0594fbd310b057eda57f
+      internalID: 25500126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_86
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ffb09327ab6ae41a60552d6816696b
+      internalID: -2023941603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_87
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1110
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5213d6f8e6f320e4d88d7b9b933819c7
+      internalID: -472809393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5ff1ebb04f55147b86834c9deca0bd
+      internalID: 1922453556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_89
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453420bb5ae3c9c4fb6baaa5dbdde2f6
+      internalID: -1645944425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_90
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9cf8b2423781443b77e305c3ee1657
+      internalID: 541650318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_91
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2442112ce5a859d41b3dfe99776eea40
+      internalID: 2047068470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_92
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1baaee37b0fdf40aed93edd00623b8
+      internalID: -1978006053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_93
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0000b0b196fb9cd45a3b41aa99c488fa
+      internalID: -539977943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_94
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a0a099440dbec489f5e16308f38e06
+      internalID: -63986913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_95
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4330efa255383b74d851bfa6ba02cecb
+      internalID: -575732005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_96
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9552d2b011eed4aa6c9cacd7697efe
+      internalID: -268658371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_97
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fddf2973fe3124dac967482c077d4d
+      internalID: -1984611747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_98
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 888
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd95e30a2ef0568429ab76143cb0e634
+      internalID: -524434838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4765df3b2ad58af458e0860743e760fe
+      internalID: 1732763963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_100
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867b7c3cbad8e5646bb7131b4f3649e9
+      internalID: 746238857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_101
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b35cf8519e793479ae06b4676a9d74
+      internalID: -1189944099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_102
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27b5c4f4e6039145b07d29d657c27bb
+      internalID: 831764325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_103
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fcf71b86ead8b408ca068a38fb6a3e
+      internalID: 1736805506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_104
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dc96cee105e064abc35863bba0551b
+      internalID: -1441685605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_105
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7a4dbc5bbb8024a985ec8af8dbca66
+      internalID: 336496966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_106
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd2e4ccc57a9cf4eaf3e7ab0f170391
+      internalID: -1820964906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_107
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2faa498f6bdb6f4b938d3435e9c626b
+      internalID: -1733569772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_108
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0811405c1b547f14c8cbf8b11927750c
+      internalID: -327138644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_109
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 666
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae91a057776bb754ea0235308f5c4209
+      internalID: -1716583989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cdc25cce4866f4f9ff242c552cd1cd
+      internalID: -744127789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_111
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a930406d369a7e4cbb4f8e0f6940362
+      internalID: -535932972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_112
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616c51b6000d00640a4348d9bdfd6535
+      internalID: 1991865141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_113
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1788de5984f34f24c936098a15ffbb74
+      internalID: 1714932440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_114
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a88d000d30198478443d92853736a3
+      internalID: 843293989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_115
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947c98b8c46d3684081f4fca50493e53
+      internalID: -875048604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_116
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7a16fcfe35efc4a93573dda77f5ea1
+      internalID: -1694744957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_117
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce58d81c28698e442aabdd3c24db13c7
+      internalID: 156754358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_118
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ff8de6f9990d94bbf3b5ea015d9ffc
+      internalID: 170289609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_119
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb652aa2d339cf4fb39e0652c16be0c
+      internalID: -1761010843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_120
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 444
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd2a17fe914134eae5fc6172741f56
+      internalID: 373834224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97647a9127bfe6e42ae06ba76c681e5d
+      internalID: 1362999923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_122
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f697a22274e95114ca26a0490f90e195
+      internalID: 1120395432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_123
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af18bd9358eca3d41add4feb13aed47f
+      internalID: 1586598611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_124
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf6429274580a34ba95e8189367b841
+      internalID: -1232739623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_125
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2671133f042ed843b432a70d7d9919f
+      internalID: 428517988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_126
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5dab54f12a2174fb93d391aa899e45
+      internalID: -1259390966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_127
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccb7f11754b90b438c5b129dbb18cbc
+      internalID: -444946379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_128
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335caa785c345d74980c5cb1965aaf45
+      internalID: 1426040622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_129
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58608941b1aeac940b4e7db563ff03f0
+      internalID: -497270132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_130
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b345f8af5e58049ae22bc0017b7099
+      internalID: 150207588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_131
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 222
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837d741e0057c66469baafc0ac71d40a
+      internalID: 1287796828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b26ae3a119ff84bb81de24b1d7d122
+      internalID: 1491036581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_133
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c109442ce0ff68541bc91a948b8496ab
+      internalID: -1125541897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_134
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ea67e0a7457b04d8b183ad6553fbee
+      internalID: -1608877438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_135
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0192f8526d6a294382b4c7c28e2373c
+      internalID: -892768871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_136
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1adc1c7488e734a87e3130fa3b975f
+      internalID: 364356824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_137
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bbd2bbee8bce149910b8291442485d
+      internalID: -1791743329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_138
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d936d1ec3758e44b03af5069d21e27
+      internalID: 338213084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_idle_battle_full_139
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 0
+        width: 362
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe4b9fc118b1bb46a16a578ca759272
+      internalID: 174466978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dragon_idle_battle_full_0: -625269641
+      dragon_idle_battle_full_1: -1953813740
+      dragon_idle_battle_full_10: -752002925
+      dragon_idle_battle_full_100: 746238857
+      dragon_idle_battle_full_101: -1189944099
+      dragon_idle_battle_full_102: 831764325
+      dragon_idle_battle_full_103: 1736805506
+      dragon_idle_battle_full_104: -1441685605
+      dragon_idle_battle_full_105: 336496966
+      dragon_idle_battle_full_106: -1820964906
+      dragon_idle_battle_full_107: -1733569772
+      dragon_idle_battle_full_108: -327138644
+      dragon_idle_battle_full_109: -1716583989
+      dragon_idle_battle_full_11: 1937873157
+      dragon_idle_battle_full_110: -744127789
+      dragon_idle_battle_full_111: -535932972
+      dragon_idle_battle_full_112: 1991865141
+      dragon_idle_battle_full_113: 1714932440
+      dragon_idle_battle_full_114: 843293989
+      dragon_idle_battle_full_115: -875048604
+      dragon_idle_battle_full_116: -1694744957
+      dragon_idle_battle_full_117: 156754358
+      dragon_idle_battle_full_118: 170289609
+      dragon_idle_battle_full_119: -1761010843
+      dragon_idle_battle_full_12: -1884728415
+      dragon_idle_battle_full_120: 373834224
+      dragon_idle_battle_full_121: 1362999923
+      dragon_idle_battle_full_122: 1120395432
+      dragon_idle_battle_full_123: 1586598611
+      dragon_idle_battle_full_124: -1232739623
+      dragon_idle_battle_full_125: 428517988
+      dragon_idle_battle_full_126: -1259390966
+      dragon_idle_battle_full_127: -444946379
+      dragon_idle_battle_full_128: 1426040622
+      dragon_idle_battle_full_129: -497270132
+      dragon_idle_battle_full_13: -906736130
+      dragon_idle_battle_full_130: 150207588
+      dragon_idle_battle_full_131: 1287796828
+      dragon_idle_battle_full_132: 1491036581
+      dragon_idle_battle_full_133: -1125541897
+      dragon_idle_battle_full_134: -1608877438
+      dragon_idle_battle_full_135: -892768871
+      dragon_idle_battle_full_136: 364356824
+      dragon_idle_battle_full_137: -1791743329
+      dragon_idle_battle_full_138: 338213084
+      dragon_idle_battle_full_139: 174466978
+      dragon_idle_battle_full_14: 1696182468
+      dragon_idle_battle_full_15: 944769271
+      dragon_idle_battle_full_16: 987415147
+      dragon_idle_battle_full_17: 727894114
+      dragon_idle_battle_full_18: 504629153
+      dragon_idle_battle_full_19: 1950775056
+      dragon_idle_battle_full_2: -1258665536
+      dragon_idle_battle_full_20: 903961285
+      dragon_idle_battle_full_21: -1633048833
+      dragon_idle_battle_full_22: -994199356
+      dragon_idle_battle_full_23: -450843030
+      dragon_idle_battle_full_24: 817493436
+      dragon_idle_battle_full_25: -1235197197
+      dragon_idle_battle_full_26: -1778237576
+      dragon_idle_battle_full_27: -677401157
+      dragon_idle_battle_full_28: -950488988
+      dragon_idle_battle_full_29: -758418168
+      dragon_idle_battle_full_3: 1228680523
+      dragon_idle_battle_full_30: 1530964347
+      dragon_idle_battle_full_31: 1183883553
+      dragon_idle_battle_full_32: 1288919103
+      dragon_idle_battle_full_33: -1489868807
+      dragon_idle_battle_full_34: 947128521
+      dragon_idle_battle_full_35: 1422000958
+      dragon_idle_battle_full_36: -903660436
+      dragon_idle_battle_full_37: -1760366188
+      dragon_idle_battle_full_38: 450850803
+      dragon_idle_battle_full_39: -878040511
+      dragon_idle_battle_full_4: 476594341
+      dragon_idle_battle_full_40: 1131433621
+      dragon_idle_battle_full_41: 106210339
+      dragon_idle_battle_full_42: 442284552
+      dragon_idle_battle_full_43: -541853623
+      dragon_idle_battle_full_44: -1217616266
+      dragon_idle_battle_full_45: -2044767844
+      dragon_idle_battle_full_46: -1250234384
+      dragon_idle_battle_full_47: -1746252013
+      dragon_idle_battle_full_48: -1859821011
+      dragon_idle_battle_full_49: 126659272
+      dragon_idle_battle_full_5: -254264196
+      dragon_idle_battle_full_50: -270226166
+      dragon_idle_battle_full_51: 71164009
+      dragon_idle_battle_full_52: 1579847532
+      dragon_idle_battle_full_53: -1415595254
+      dragon_idle_battle_full_54: 751147419
+      dragon_idle_battle_full_55: -1322758505
+      dragon_idle_battle_full_56: -1957228146
+      dragon_idle_battle_full_57: 83072790
+      dragon_idle_battle_full_58: -1125784862
+      dragon_idle_battle_full_59: 740102253
+      dragon_idle_battle_full_6: 1330180991
+      dragon_idle_battle_full_60: 1170901539
+      dragon_idle_battle_full_61: -882212176
+      dragon_idle_battle_full_62: -1711881278
+      dragon_idle_battle_full_63: -1788680199
+      dragon_idle_battle_full_64: -672744111
+      dragon_idle_battle_full_65: -785726453
+      dragon_idle_battle_full_66: 351230248
+      dragon_idle_battle_full_67: -575859978
+      dragon_idle_battle_full_68: -1716032108
+      dragon_idle_battle_full_69: 596516502
+      dragon_idle_battle_full_7: -376553867
+      dragon_idle_battle_full_70: -1494574900
+      dragon_idle_battle_full_71: -1830052644
+      dragon_idle_battle_full_72: 429329260
+      dragon_idle_battle_full_73: 2088983496
+      dragon_idle_battle_full_74: -1493938473
+      dragon_idle_battle_full_75: 1150791988
+      dragon_idle_battle_full_76: -1954880346
+      dragon_idle_battle_full_77: -1698694933
+      dragon_idle_battle_full_78: -912328685
+      dragon_idle_battle_full_79: 2019013131
+      dragon_idle_battle_full_8: -255830430
+      dragon_idle_battle_full_80: -1563797490
+      dragon_idle_battle_full_81: 1958424548
+      dragon_idle_battle_full_82: -1290318427
+      dragon_idle_battle_full_83: 36973756
+      dragon_idle_battle_full_84: 1629031597
+      dragon_idle_battle_full_85: 25500126
+      dragon_idle_battle_full_86: -2023941603
+      dragon_idle_battle_full_87: -472809393
+      dragon_idle_battle_full_88: 1922453556
+      dragon_idle_battle_full_89: -1645944425
+      dragon_idle_battle_full_9: -1637202563
+      dragon_idle_battle_full_90: 541650318
+      dragon_idle_battle_full_91: 2047068470
+      dragon_idle_battle_full_92: -1978006053
+      dragon_idle_battle_full_93: -539977943
+      dragon_idle_battle_full_94: -63986913
+      dragon_idle_battle_full_95: -575732005
+      dragon_idle_battle_full_96: -268658371
+      dragon_idle_battle_full_97: -1984611747
+      dragon_idle_battle_full_98: -524434838
+      dragon_idle_battle_full_99: 1732763963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

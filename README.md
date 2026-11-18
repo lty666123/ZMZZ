@@ -1,27 +1,36 @@
 # ZMZZ
 
-ZMZZ is a 2D action game built with Unity URP. The repository also includes an ASP.NET Core server prototype for accounts, friends, and cloud saves.
+使用 Unity 开发的 2D 动作游戏，包含角色移动与战斗、敌人与龙 Boss、物品掉落、背包、装备、UI、账号登录、好友聊天和账号云存档相关代码。
 
-## Project structure
+本仓库的游戏客户端来自正在开发的 `E:\unity Prograss\ZMZZ` 工程。早期的 `ZMZZ-Unity` 方块战斗原型已从最新版本中移除。
 
-- `ZMZZ-Unity/`: Unity client project
-- `Server/ZmzzServer/`: ASP.NET Core 8 server
-- `Docs/`: design documents and development notes
-- `Tools/`: build, test, and asset-processing scripts
+## 目录
 
-## Unity client
+- `ZMZZ/Assets/`：游戏脚本、美术资源、动画、场景、预制体和 `.meta` 文件。
+- `ZMZZ/Packages/`：Unity 包清单与锁定文件。
+- `ZMZZ/ProjectSettings/`：Unity 工程设置。
+- `Server/ZmzzServer/`：ASP.NET Core 服务端源码，包含账号、好友、聊天与 SQLite 云存档相关实现。
 
-- Unity version: `2022.3.62f3c1`
-- Render pipeline: Universal Render Pipeline 14
+## 打开客户端
 
-Add the `ZMZZ-Unity` directory in Unity Hub and open the project. On the first launch, Unity restores packages from `Packages/manifest.json` and rebuilds the ignored `Library` directory.
+使用 Unity Hub 添加仓库内的 `ZMZZ` 文件夹。Unity 版本为 **2022.3.62f3c1**。首次打开时，Unity 会恢复依赖并重建缓存。
 
-## Server
+当前构建设置中的场景为：
 
-Install the .NET 8 SDK, then run:
+1. `Assets/Scenes/SampleScene.unity`
+2. `Assets/Scenes/GamePanelCeShi.unity`
+3. `Assets/Scenes/GameScene1.unity`
+
+主要脚本目录包括 `Assets/Scripts/Inventory`、`Assets/Scripts/NetWork`、`Assets/Scripts/UIPanel` 和 `Assets/Scripts/Object`。
+
+## 启动服务端
+
+安装 .NET 8 SDK 或支持该目标框架的较新 SDK，然后运行：
 
 ```powershell
 dotnet run --project Server/ZmzzServer/ZmzzServer.csproj
 ```
 
-Local SQLite data is stored in `Server/ZmzzServer/Data/` and is excluded from version control.
+客户端当前连接本机的 `http://127.0.0.1:5080`，因此联网功能需要先启动服务端。
+
+Unity 缓存、IDE 缓存、构建输出、日志、本地备份和服务端 SQLite 数据库不纳入版本管理。该仓库保留当前开发状态，功能以实际源码实现为准。

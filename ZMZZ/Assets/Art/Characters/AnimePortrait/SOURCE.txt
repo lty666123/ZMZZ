@@ -1,0 +1,8 @@
+二次元角色头像（4 个表情）
+========================================
+来源：https://opengameart.org/content/anime-portrait-for-lpc-characters
+许可：CC-BY-SA
+     · 可商用，但必须署名原作者（作者名见来源页面）
+     · 共有方式：如果你修改了这张图，改后的版本也要以 CC-BY-SA 发布
+文件：AnimePortrait/LPCportrait1.png
+用途：HUD 角色头像（图里含 4 个表情，可切成 4 张切换）

@@ -3,6 +3,15 @@
 .verify/
 Logs/
 
+# Earlier prototype and local reference notes; keep only the active game online
+/ZMZZ-Unity/
+/Docs/
+/Tools/
+
+# Unity-generated IDE projects
+/ZMZZ/*.csproj
+/ZMZZ/*.sln
+
 # IDE state
 .vs/
 **/.vs/

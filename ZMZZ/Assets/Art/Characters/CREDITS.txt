@@ -1,0 +1,25 @@
+角色素材来源与许可
+========================================
+（做作品集时把这份一起保留，面试官会看到你懂素材许可）
+
+1) Basic Knight for platformers and scrolling beat 'em up
+   来源：https://opengameart.org/content/basic-knight-for-platformers-and-scrolling-beat-em-up
+   许可：CC0（公共领域 —— 无需署名，可商用）
+   文件：BasicKnight/basic_knight_spritesheet.png
+
+2) Knight and knight animation（BlueKnightSpriteSheet）
+   来源：https://opengameart.org/content/knight-and-knight-animation
+   许可：CC0（公共领域 —— 无需署名，可商用）
+   文件：BlueKnight/BlueKnightSpriteSheet.png
+
+3) Golden Knight: Character Sprite（走路 / 站立 / 跳跃）
+   来源：https://opengameart.org/content/golden-knight-character-sprite
+   许可：CC-BY（可商用，但必须署名原作者，作者名见来源页面）
+   文件：GoldenKnight/walk、idle、jump
+
+使用建议
+========================================
+· 项目里只用一套角色，左右方向靠 SpriteRenderer 的 flipX 翻转
+  （我放的 GoldenKnight 只保留了"朝右"的那一套，省一半文件）
+· 这些是像素 / 写实偏西幻的骑士，不是二次元风格
+· 不要使用任何来自商业游戏的素材（包括角色 IP 与拆包资源）
