@@ -9,8 +9,15 @@ public class main : MonoBehaviour
     {
         //开始时加载BeginPanel
         //UIManger.Instance.ShowPanel<BeginPanel>();
+        if(LoginTest.isLoginSucced)
+        {
+            UIManger.Instance.ShowPanel<BeginPanel>();
+        }
+        else
+        {
+            UIManger.Instance.ShowPanel<LoginPanel>();
 
-        UIManger.Instance.ShowPanel<LoginPanel>();
+        }
 
     }
 

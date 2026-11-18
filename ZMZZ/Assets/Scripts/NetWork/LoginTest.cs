@@ -28,6 +28,8 @@ public class LoginTest : MonoBehaviour
     public event Action FriendsChanged;
 
     public event Action LoginSucceed;
+
+    public static bool isLoginSucced;
     public event Action RegisterSucceed;
 
     public string playerId;
@@ -101,6 +103,7 @@ public class LoginTest : MonoBehaviour
             }
             cloudSaveClient.EnableCloudSave(accessToken);
             Debug.Log("登录及读档成功"+ res.nickName);
+            isLoginSucced = true;
             LoginSucceed?.Invoke();
             yield return GetMyInfo();
             yield return CheckFriendsRequests();
@@ -491,6 +494,7 @@ public class LoginTest : MonoBehaviour
     public void OnLoginClicked(string userName,string password)
     {
         StartCoroutine(Login(userName,password));
+     
     }
 
    public void OnRegisterClicked(string nickname,string userName,string password)

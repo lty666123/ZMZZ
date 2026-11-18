@@ -35,7 +35,7 @@ public class EscPanel : BasePanel
         btnBackOut.onClick.AddListener(() =>
         {
             SceneManager.LoadScene("GamePanelCeShi");
-            UIManger.Instance.ShowPanel<BeginPanel>();
+            //UIManger.Instance.ShowPanel<BeginPanel>();
             UIManger.Instance.HidePanel<EscPanel>();
         });
     }
