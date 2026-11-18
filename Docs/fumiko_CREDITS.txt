@@ -1,0 +1,12 @@
+Fumiko complete character set
+========================================
+Author: skoam
+Source: https://opengameart.org/content/fumiko-complete-charset
+License: CC0
+
+File: Fumiko.png
+Sheet: 864 x 256, 32 x 32 frames
+Contents: multi-direction idle/walk/attack-style character frames.
+
+CC0: attribution is not required, but keeping this source record is useful
+for the project portfolio.

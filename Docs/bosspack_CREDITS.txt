@@ -1,0 +1,13 @@
+Bosses Pixel Art Sprite Sheet Pack
+========================================
+Author: CraftPix.net 2D Game Assets
+Source: https://opengameart.org/content/bosses-pixel-art-sprite-sheet
+License: OGA-BY 3.0
+
+Included bosses:
+- Boss 1: Attack, Idle, Walk, Hurt, Death
+- Boss 2: Attack1-4, Bullet, Idle, Walk, Hurt, Death
+- Boss 3: Attack1-4, Ball, Idle, Walk, Hurt, Death
+
+The pack is used as a temporary multi-attack boss reference/prototype.
+Attribution is required under OGA-BY 3.0. Keep this file with the assets.

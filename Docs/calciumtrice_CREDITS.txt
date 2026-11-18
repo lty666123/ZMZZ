@@ -1,0 +1,30 @@
+Calciumtrice 2D monster sprite sheets
+========================================
+Author: Calciumtrice
+License: CC-BY 3.0
+
+Animated Minotaur
+Source: https://opengameart.org/content/animated-minotaur
+File: Minotaur/minotaur_sheet.png
+Grid: 10 columns x 5 rows, 48 x 48 per frame
+Rows: Idle / Walk / Run / Attack / Death
+
+Animated Skeleton
+Source: https://opengameart.org/content/animated-skeleton
+File: Minions/skeleton_sheet.png
+Grid: 10 columns x 5 rows, 32 x 32 per frame
+Rows: Idle / Walk / Attack / Death (preview order)
+
+Animated Goblins
+Source: https://opengameart.org/content/animated-goblins
+File: Minions/goblin_sheet.png
+Grid: 10 columns x 10 rows, 32 x 32 per frame
+
+Animated Slime
+Source: https://opengameart.org/content/animated-slime
+File: Minions/slime_sheet.png
+Grid: 10 columns x 20 rows, 32 x 32 per frame
+Multiple color variants, each with idle / walk / attack / death rows.
+
+These assets are used in a portfolio prototype. Attribution is required
+under CC-BY 3.0. Keep this file with the assets.

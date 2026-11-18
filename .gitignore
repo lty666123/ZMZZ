@@ -1,0 +1,58 @@
+# Local backups, verification output, and logs
+.backup/
+.verify/
+Logs/
+
+# IDE state
+.vs/
+**/.vs/
+.vscode/
+.idea/
+
+# Unity generated directories and project files
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# .NET generated output and local data
+**/bin/
+**/obj/
+Server/ZmzzServer/Data/
+
+# Downloaded/reference asset previews are not project source
+Docs/asset_previews/
+
+# Build packages and archives
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.zip
+*.7z
+*.rar
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crash logs
+sysinfo.txt
+crashlytics-build.properties

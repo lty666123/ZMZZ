@@ -1,0 +1,18 @@
+Minotaur sprite sheet
+========================================
+Author: Calciumtrice
+Source: https://opengameart.org/content/animated-minotaur
+License: CC-BY 3.0
+
+Files:
+- minotaur_sheet.png (480 x 240, 10 columns x 5 rows, 48 x 48 per frame)
+
+Animation rows:
+- Row 1: Idle
+- Row 2: Walk
+- Row 3: Run
+- Row 4: Attack
+- Row 5: Death
+
+This project uses the asset in a portfolio prototype. Attribution is required
+under CC-BY 3.0. Keep this file with the asset.

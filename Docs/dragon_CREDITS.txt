@@ -1,0 +1,42 @@
+Dragon - Fully Animated
+========================================
+Author: Cethiel
+Source: https://opengameart.org/content/dragon-fully-animated
+License: CC0
+
+Source pack contains:
+- Attack 1
+- Attack 2
+- Death
+- Hurt
+- Idle
+- Idle Battle
+- Walking
+
+Unity sprite sheets were generated from the full source pack. Each frame is
+362 x 222 (50% of the original 725 x 445):
+
+- dragon_attack1.png: 41 frames, every 4th source frame, 8 x 6 cells
+- dragon_attack2.png: 34 frames, every 6th source frame, 8 x 5 cells
+- dragon_death.png: 31 frames, every 10th source frame, 8 x 4 cells
+- dragon_hurt.png: 16 frames, every 4th source frame, 8 x 2 cells
+- dragon_idle.png: 17 frames, every 10th source frame, 8 x 3 cells
+- dragon_idle_battle.png: 14 frames, every 10th source frame, 8 x 2 cells
+- dragon_walking.png: 17 frames, every 10th source frame, 8 x 3 cells
+
+Smoother HD sheets (recommended for in-game animation):
+
+- dragon_attack1_hd.png: 81 frames, every 2nd source frame, 8 x 11 cells
+- dragon_attack2_hd.png: 101 frames, every 2nd source frame, 8 x 13 cells
+- dragon_death_hd.png: 76 frames, every 4th source frame, 8 x 10 cells
+- dragon_hurt_hd.png: 31 frames, every 2nd source frame, 8 x 4 cells
+- dragon_idle_hd.png: 41 frames, every 4th source frame, 8 x 6 cells
+- dragon_idle_battle_hd.png: 35 frames, every 4th source frame, 8 x 5 cells
+- dragon_walking_hd.png: 41 frames, every 4th source frame, 8 x 6 cells
+
+Full-frame sheets (no sampling):
+
+- dragon_idle_full.png: all 161 Idle frames, 11 x 15 cells, 3982 x 3330
+
+CC0: attribution is not required, but this source record is kept for the
+project portfolio.
