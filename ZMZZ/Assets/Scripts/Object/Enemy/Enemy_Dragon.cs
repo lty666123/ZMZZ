@@ -84,6 +84,10 @@ public class Enemy_Dragon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Time.timeScale == 0f)
+        {
+            return;
+        }
         distance = Vector2.Distance(foot.transform.position, player.transform.position);
         switch (state)
         {

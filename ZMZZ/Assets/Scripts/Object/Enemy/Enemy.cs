@@ -83,6 +83,10 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if (Time.timeScale == 0f)
+        {
+            return;
+        }
         if (player == null) return;
 
         distance = Vector3.Distance(player.transform.position, this.transform.position);

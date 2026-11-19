@@ -51,7 +51,7 @@ public abstract class BasePanel : MonoBehaviour
     {
         if(IsShow && _group.alpha < 1f)
         {
-            _group.alpha += alphaSpeed * Time.deltaTime;
+            _group.alpha += alphaSpeed * Time.unscaledDeltaTime;
             if(_group.alpha>1f)
             {
                 _group.alpha = 1;
@@ -59,7 +59,7 @@ public abstract class BasePanel : MonoBehaviour
         }
         if (!IsShow && _group.alpha > 0f)
         {
-            _group.alpha -= alphaSpeed * Time.deltaTime;
+            _group.alpha -= alphaSpeed * Time.unscaledDeltaTime;
             if (_group.alpha <= 0f)
             {
                 _group.alpha = 0;
