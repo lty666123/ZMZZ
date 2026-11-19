@@ -55,19 +55,19 @@ public class GamePanel : MonoBehaviour
             UIManger.Instance.ShowPanel<FriendPanel>();
         });
 
-        Time.timeScale = UIManger.Instance.HasPanel ? 0f : 1f;
-        if(Time.timeScale == 0f)
-        {
-            return;
-        }
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        Time.timeScale = UIManger.Instance.HasPanel ? 0f : 1f;
+        if (Time.timeScale == 0f)
+        {
+            return;
+        }
 
-   
         PlayerData pd = GameDataMgr.Instance.playerData;
 
 

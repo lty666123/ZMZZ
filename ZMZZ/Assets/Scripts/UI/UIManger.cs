@@ -22,6 +22,7 @@ public class UIManger
     {
         GameObject canvas = GameObject.Instantiate(Resources.Load<GameObject>("UI/Canvas"));
         canvasTrans = canvas.transform;
+        canvas.GetComponent<Canvas>().sortingOrder = 10;
         GameObject.DontDestroyOnLoad(canvas);
     }
 

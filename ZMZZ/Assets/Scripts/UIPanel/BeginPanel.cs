@@ -24,8 +24,12 @@ public class BeginPanel : BasePanel
         btnQuit.onClick.AddListener(() =>
         {
             //退出游戏
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
             Application.Quit();
-        });
+#endif
+            });
         btnSetting.onClick.AddListener(() =>
         {
             //切换至游戏设置界面 

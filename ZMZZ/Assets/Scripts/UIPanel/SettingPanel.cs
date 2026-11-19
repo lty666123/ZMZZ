@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class SettingPanel : BasePanel
 {
-    public Button btnMusic;
-    public Button btnResolution;
+    public Button btnMusic;//音乐按钮
+    public Button btnResolution;//分辨率按钮
     public Button btnKey;
     
 
@@ -14,7 +14,10 @@ public class SettingPanel : BasePanel
     public Slider musicVs;
     public Slider soundVs;
 
-    public GameObject resolutionPanel;
+    public GameObject resolutionPanel;//分辨率面板
+    public Button btn1280;
+    public Button btn1600;
+    public Button btn1920;
 
     public Button btnBack;
 
@@ -45,11 +48,16 @@ public class SettingPanel : BasePanel
             AudioManager.Instance.SetSfxVolume(v);
         });
 
+        //分辨率相关
         btnResolution.onClick.AddListener(() =>
         {
            resolutionPanel.SetActive(true);
             musicPanel.SetActive(false);
         });
+        btn1280.onClick.AddListener(() => { ChangeResolution(1280, 720); });
+        btn1600.onClick.AddListener(() => { ChangeResolution(1600, 960); });
+        btn1920.onClick.AddListener(() => { ChangeResolution(1920, 1080); });
+
 
         btnBack.onClick.AddListener(() => 
         {
@@ -58,6 +66,12 @@ public class SettingPanel : BasePanel
             UIManger.Instance.HidePanel<SettingPanel>();
         });
     }
+
+    private void ChangeResolution(int width,int height)
+    {
+        Screen.SetResolution(width, height, FullScreenMode.Windowed);
+    }
+
 }
 
 
