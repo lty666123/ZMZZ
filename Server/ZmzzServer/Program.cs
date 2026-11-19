@@ -296,13 +296,14 @@ app.MapPost("/friends/requests", (HttpRequest httpRequest, FriendRequestCreate i
             new { error = "不能添加自己为好友" },
             statusCode: StatusCodes.Status400BadRequest);
     }
-    if (targetPlayerId != "player-saber" && targetPlayerId != "player-rin")
-    {
-        return Results.Json(
-            new { error = "目标玩家不存在" },
-            statusCode: StatusCodes.Status404NotFound);
-    }
-    string relationKey = GetFriendPairKey(session.PlayerId, targetPlayerId);
+	//if (targetPlayerId != "player-saber" && targetPlayerId != "player-rin")
+	//{
+	//    return Results.Json(
+	//        new { error = "目标玩家不存在" },
+	//        statusCode: StatusCodes.Status404NotFound);
+	//}
+	
+	string relationKey = GetFriendPairKey(session.PlayerId, targetPlayerId);
     if (friendRelations.ContainsKey(relationKey))
     {
         return Results.Json(
