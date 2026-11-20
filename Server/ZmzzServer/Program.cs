@@ -302,25 +302,47 @@ app.MapPost("/friends/requests", (HttpRequest httpRequest, FriendRequestCreate i
 	//        new { error = "目标玩家不存在" },
 	//        statusCode: StatusCodes.Status404NotFound);
 	//}
-	
-	string relationKey = GetFriendPairKey(session.PlayerId, targetPlayerId);
-    if (friendRelations.ContainsKey(relationKey))
-    {
+	using(var connection = new SqliteConnection(new SqliteConnectionStringBuilder 
+												{ DataSource = databasePath}.ToString()))
+	{
+		connection.Open();
+		using var command = connection.CreateCommand();
+		command.CommandText = """"
+SELECT 1
+FROM Accounts
+WHERE PlayerId = $playerId;
+"""";
+		command.Parameters.AddWithValue("$playerId", targetPlayerId);
+		using var reader = command.ExecuteReader();
+		if(!reader.Read())
+		{
+            return Results.Json(
+			new { error = "目标玩家不存在" },
+			statusCode: StatusCodes.Status404NotFound);
+		}
+    }
+	//string relationKey = GetFriendPairKey(session.PlayerId, targetPlayerId);
+ //   if (friendRelations.ContainsKey(relationKey))
+    if(friendStore.AreFriends(session.PlayerId,targetPlayerId))
+	{
         return Results.Json(
             new { error = "双方已经是好友" },
             statusCode: StatusCodes.Status409Conflict);
     }
-    bool hasPendingRequest = friendRequests.Values.Any(item =>
-       item.Status == "pending" &&
-       (
-           item.FromPlayerId == session.PlayerId &&
-           item.ToPlayerId == targetPlayerId
-       ) ||
-       (
-           item.FromPlayerId == targetPlayerId &&
-           item.ToPlayerId == session.PlayerId
-       )
-   );
+   // bool hasPendingRequest = friendRequests.Values.Any(item =>
+   //    item.Status == "pending" &&
+   //    (
+   //        item.FromPlayerId == session.PlayerId &&
+   //        item.ToPlayerId == targetPlayerId
+   //    ) ||
+   //    (
+   //        item.FromPlayerId == targetPlayerId &&
+   //        item.ToPlayerId == session.PlayerId
+   //    )
+   //);
+   bool hasPendingRequest = friendStore.GetIncomingRequests(targetPlayerId).
+	Any(item => item.FromPlayerId == session.PlayerId) || friendStore.GetIncomingRequests(session.PlayerId).
+    Any(item => item.FromPlayerId == targetPlayerId);
 
     if (hasPendingRequest)
     {
@@ -341,8 +363,8 @@ app.MapPost("/friends/requests", (HttpRequest httpRequest, FriendRequestCreate i
         createdAt
     );
 
-    friendRequests[requestId] = friendRequest;
-
+    //friendRequests[requestId] = friendRequest;
+	friendStore.CreateRequest( friendRequest );
     return Results.Json(new
     {
         requestId,
@@ -364,21 +386,31 @@ app.MapGet("/friends/requests", (HttpRequest httpRequest) =>
             statusCode: StatusCodes.Status401Unauthorized);
     }
 
-    var incomingRequests = friendRequests.Values
-        .Where(item =>
-            item.ToPlayerId == session.PlayerId &&
-            item.Status == "pending")
-        .OrderByDescending(item => item.CreatedAtUtc)
-        .Select(item => new
-        {
-            item.RequestId,
-            item.FromPlayerId,
-            item.FromNickname,
-            item.Status,
-            item.CreatedAtUtc
-        })
-        .ToArray();
+	//var incomingRequests = friendRequests.Values
+	//    .Where(item =>
+	//        item.ToPlayerId == session.PlayerId &&
+	//        item.Status == "pending")
+	//    .OrderByDescending(item => item.CreatedAtUtc)
+	//    .Select(item => new
+	//    {
+	//        item.RequestId,
+	//        item.FromPlayerId,
+	//        item.FromNickname,
+	//        item.Status,
+	//        item.CreatedAtUtc
+	//    })
+	//    .ToArray();
 
+
+	var incomingRequests = friendStore.GetIncomingRequests(session.PlayerId).Select(item => new
+	{
+		item.RequestId,
+		item.FromPlayerId,
+		item.FromNickname,
+		item.Status,
+		item.CreatedAtUtc
+	}).ToArray();
+    
     return Results.Json(incomingRequests);
 });
 
@@ -395,14 +427,19 @@ app.MapPost("/friends/requests/{requestId}/accept", (HttpRequest httpRequest, st
             statusCode: StatusCodes.Status401Unauthorized
             );
     }
+
+    FriendRequest? friendRequest = friendStore.FindRequestById(requestId);
+
     //查询好友申请表中有无该申请信息 有的话 取出来
-    if (!friendRequests.TryGetValue(requestId, out FriendRequest? friendRequest))
-    {
+    //if (!friendRequests.TryGetValue(requestId, out FriendRequest? friendRequest))
+    if( friendRequest == null )
+	{
         return Results.Json(
             new { error = "好友申请不存在" },
             statusCode: StatusCodes.Status404NotFound);
     }
-    //
+    
+
     if (friendRequest.ToPlayerId != session.PlayerId)
     {
         return Results.Json(
@@ -418,33 +455,51 @@ app.MapPost("/friends/requests/{requestId}/accept", (HttpRequest httpRequest, st
             new { error = "该申请已经处理" },
             statusCode: StatusCodes.Status409Conflict);
     }
-    //好友关系键生成
-    string pairKey = GetFriendPairKey(friendRequest.FromPlayerId, friendRequest.ToPlayerId);
-    //好友关系id
-    string relationId = Guid.NewGuid().ToString("N");
-    DateTime createdAt = DateTime.UtcNow;
-    //好友关系信息
-    FriendRelation relation = new FriendRelation(
-        relationId,
-        friendRequest.FromPlayerId,
-        friendRequest.ToPlayerId,
-        createdAt);
-    //判断好友关系表里有没有该关系 无 就加入 防止重复好友关系
-    if (!friendRelations.TryAdd(pairKey, relation))
-    {
-        return Results.Json(
-            new { error = "双方已经是好友" },
-            statusCode: StatusCodes.Status409Conflict);
-    }
-    //修改好友申请中的状态信息
-    friendRequests[requestId] = friendRequest with { Status = "accepted" };
+    #region 未设置存档时的测试代码
+    ////好友关系键生成
+    //string pairKey = GetFriendPairKey(friendRequest.FromPlayerId, friendRequest.ToPlayerId);
+    ////好友关系id
+    //string relationId = Guid.NewGuid().ToString("N");
+    //DateTime createdAt = DateTime.UtcNow;
+    ////好友关系信息
+    //FriendRelation relation = new FriendRelation(
+    //    relationId,
+    //    friendRequest.FromPlayerId,
+    //    friendRequest.ToPlayerId,
+    //    createdAt);
+    ////判断好友关系表里有没有该关系 无 就加入 防止重复好友关系
+    //if (!friendRelations.TryAdd(pairKey, relation))
+    //{
+    //    return Results.Json(
+    //        new { error = "双方已经是好友" },
+    //        statusCode: StatusCodes.Status409Conflict);
+    //}
+    ////修改好友申请中的状态信息
+    //friendRequests[requestId] = friendRequest with { Status = "accepted" };
+    //return Results.Json(new
+    //{
+    //    relationId,
+    //    playerAId = friendRequest.FromPlayerId,
+    //    playerBId = friendRequest.ToPlayerId,
+    //    status = "accepted",
+    //    createdAtUtc = createdAt
+    //});
+    #endregion
+
+	FriendRelation? relation = friendStore.TryAcceptRequest(requestId,session.PlayerId);
+	if( relation == null)
+	{
+		return Results.Json(
+			new { error = "接受失败 申请已处理或双方已是好友" },
+			statusCode: StatusCodes.Status409Conflict);
+	}
     return Results.Json(new
     {
-        relationId,
-        playerAId = friendRequest.FromPlayerId,
-        playerBId = friendRequest.ToPlayerId,
+        relationId = relation.RelationId,
+        playerAId = relation.PlayerAId,
+        playerBId = relation.PlayerBId,
         status = "accepted",
-        createdAtUtc = createdAt
+        createdAtUtc = relation.CreatedAtUtc
     });
 });
 
@@ -507,14 +562,15 @@ app.MapGet("/friends", (HttpRequest httpRequest) =>
             statusCode: StatusCodes.Status401Unauthorized
             );
     }
-    var friends = friendRelations.Values.Where(item => item.PlayerAId == session.PlayerId ||
-    item.PlayerBId == session.PlayerId).Select(item => new
-    {
-        item.RelationId,
-        item.PlayerAId,
-        item.PlayerBId,
-        item.CreatedAtUtc
-    }).ToArray();
+    //var friends = friendRelations.Values.Where(item => item.PlayerAId == session.PlayerId ||
+    //item.PlayerBId == session.PlayerId).Select(item => new
+    //{
+    //    item.RelationId,
+    //    item.PlayerAId,
+    //    item.PlayerBId,
+    //    item.CreatedAtUtc
+    //}).ToArray();
+	var friends = friendStore.GetFriends(session.PlayerId);
     return Results.Json(friends);
 });
 
@@ -612,8 +668,9 @@ app.Map("/ws/chat", async (HttpContext context) =>
 			//	result.EndOfMessage,
 			//	context.RequestAborted);
 
-			string pairKey = GetFriendPairKey(session.PlayerId, input.TargetPlayerId);
-			if(!friendRelations.ContainsKey(pairKey))
+			//string pairKey = GetFriendPairKey(session.PlayerId, input.TargetPlayerId);
+			//if(!friendRelations.ContainsKey(pairKey))
+			if(!friendStore.AreFriends(session.PlayerId,input.TargetPlayerId))
 			{
 				Console.WriteLine("转发失败 双方还不是好友");
 				continue;

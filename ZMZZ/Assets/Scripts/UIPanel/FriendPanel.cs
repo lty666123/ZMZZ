@@ -43,6 +43,9 @@ public class FriendPanel : BasePanel
     private Dictionary<string, Button> btnFriendsDic = new Dictionary<string, Button>();
     public Transform btnFriends_Pos;
 
+    public Button btnAddFriend;
+    public InputField inputAddFriend;
+
     public override void Init()
     {
         btnBack.onClick.AddListener(() =>
@@ -62,7 +65,10 @@ public class FriendPanel : BasePanel
         btnAccept.onClick.AddListener(loginTest.OnAcceptClicked);
         btnReject.onClick.AddListener(loginTest.OnRejectClicked);
         btnRefresh.onClick.AddListener(loginTest.OnRefreshClicked);
+        btnAddFriend.onClick.AddListener(()=>loginTest.OnAddFriendClicked(inputAddFriend.text));
         #endregion
+
+
 
         loginTest.FriendRequestsChanged += ViewRefresh;
         loginTest.FriendsChanged += ViewRefresh;

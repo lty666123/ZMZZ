@@ -42,7 +42,7 @@ public class LoginTest : MonoBehaviour
         //yield return Login("rin", "Demo123!");
         //yield return GetMyInfo();
         //yield return SearchPlayer("ZMZZ-RIN-002");
-       // yield return FriendsRequests(targetPlayer);
+       //yield return FriendsRequests(targetPlayer);
         //yield return CheckFriendsRequests();
         //yield return CheckFriends();
         DontDestroyOnLoad(gameObject);
@@ -175,6 +175,27 @@ public class LoginTest : MonoBehaviour
                 + "名字为" + sfi.nickname
                 + "等级为" + sfi.level);
         }
+    }
+
+    public void OnAddFriendClicked(string targetPlayerId)
+    {
+        if(string.IsNullOrWhiteSpace(accessToken))
+        {
+            Debug.Log("请先登录");
+            return;
+        }
+        targetPlayerId = (targetPlayerId??"").Trim();
+        if(string.IsNullOrEmpty(targetPlayerId) )
+        {
+            Debug.Log("请输入目标玩家ID");
+            return;
+        }
+        if(targetPlayerId == playerId)
+        {
+            Debug.Log("不能添加自己为好友");
+            return;
+        }
+        StartCoroutine(FriendsRequests(targetPlayerId));
     }
 
     //发送好友申请
